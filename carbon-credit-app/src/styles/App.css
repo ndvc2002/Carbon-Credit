@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styling */
+header {
+  background-color: #1f77ff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 0 0 10px 10px;
+  color: #ffffff;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 10px;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #003b9b;
+  color: #ffffff;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #001f57;
+}
+
+.account-info {
+  background-color: #e3e6ed;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 20px auto;
+  display: inline-block;
+  color: #333333;
+  font-size: 16px;
+}
+
+.account-info p {
+  margin: 5px 0;
+}
+
+/* Content Styling */
+.app-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Section Styling */
+.form-section {
+  background-color: #f9fafc;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.form-section h3 {
+  color: #1f77ff;
+}
+
+input {
+  display: block;
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.action-button {
+  background-color: #1f77ff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.action-button:hover {
+  background-color: #004db3;
+  transform: translateY(-2px);
+}
+
+/* Credit Details Section */
+.details-section {
+  background-color: #f1f1f1;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 15px;
+  border: 1px solid #ccc;
+}
+
+.details-section p {
+  margin: 5px 0;
+  font-weight: bold;
+}
